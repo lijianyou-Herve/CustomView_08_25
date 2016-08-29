@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleProgressView">
+        <attr name="firstColor" format="color"/> <!--圆环颜色-->
+        <attr name="secondColor" format="color"/> <!--圆环颜色-->
+        <attr name="circleWidth" format="dimension"/><!--色带宽度-->
+    </declare-styleable>
+
+    <declare-styleable name="DancingView">
+        <attr name="lineWidth" format="dimension" />
+        <attr name="lineHeight" format="dimension" />
+        <attr name="pointColor" format="reference|color" />
+        <attr name="lineColor" format="reference|color" />
+        <attr name="ballColor" format="reference|color" />
+    </declare-styleable>
+</resources>

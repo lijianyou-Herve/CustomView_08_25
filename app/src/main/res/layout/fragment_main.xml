@@ -1,0 +1,65 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".ui.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.example.herve.customview_08_25.view.CircleProgressView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+
+        <com.example.herve.customview_08_25.view.DancingView
+            android:id="@+id/dancingView"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:background="#0fc2de"
+            app:ballColor="@color/colorAccent"
+            app:lineColor="@color/colorPrimary"
+            app:lineHeight="5dp"
+            app:lineWidth="80dp"
+            app:pointColor="#37af1c"/>
+
+        <com.example.herve.customview_08_25.view.CostomOne
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/colorPrimary"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.example.herve.customview_08_25.view.SlingshotView
+            android:layout_width="200dp"
+            android:layout_height="200dp"/>
+
+        <com.example.herve.customview_08_25.view.Bezier3
+            android:layout_width="200dp"
+            android:layout_height="200dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.example.herve.customview_08_25.view.MagicCircle
+            android:layout_width="200dp"
+            android:layout_height="200dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
